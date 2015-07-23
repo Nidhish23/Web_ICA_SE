@@ -6,7 +6,7 @@ public  class Configuration {
 	
 	static ReadProperties rp= new ReadProperties();
 	
-	public String ServerName()
+	public static String ServerName()
 	{
 		return rp.Properties("ServerURL");
 	
@@ -17,27 +17,27 @@ public  class Configuration {
 		//return rp.Properties("Browsername");
 	//}
 
-	public String browser() 
+	public static String browser() 
 	{
 		// TODO Auto-generated method stub
 		return rp.Properties("Browsername");
 		
 	}
-	public String SeleniumServer() 
+	public static String SeleniumServer() 
 	{
 		// TODO Auto-generated method stub
 		return rp.Properties("SeleniumServer");
 		
 	}
 	
-	public String LogFilePath() 
+	public  static String LogFilePath() 
 	{
 		// TODO Auto-generated method stub
 		return rp.Properties("LogFilePath");
 		
 	}
 	
-	public String ServerPort() 
+	public static String ServerPort() 
 	{
 		// TODO Auto-generated method stub
 		return rp.Properties("ServerPort");

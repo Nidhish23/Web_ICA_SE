@@ -12,8 +12,8 @@
         <methods>
           <include name="Verify_StoreCache_Functionality_With_Login"/>
           <include name="BeforeSuit"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
       </class> <!-- testscript.SmokeTest -->
     </classes>

@@ -33,28 +33,30 @@ public  class TestBase {
 	public static  WebDriver driver=null;
 	static WebdriverFactory   driverFactory = new WebdriverFactory();
 	  public static StringBuffer verificationErrors = new StringBuffer();
-	 static Configuration configuration=new Configuration();
+	
 	  Action Action ;
 	 
 	  @BeforeSuite
 	  public static void BeforeSuit()
 	  {
-		Log log= new Log();
-		log.CreateLogFile();
-		
+	
 	  }
 	
 	@BeforeTest
 	@Parameters({"Browser"})
-	  public static void beforeClass(@Optional String Browser) {
+	 
+
+	public static void beforeTest(@Optional String Browser) {
+		
+		new Log("error");
 		if (Browser==null)
 		{
 		
-		driver = driverFactory.getDriver(configuration.browser(),configuration.SeleniumServer(),configuration.ServerPort());
+		driver = driverFactory.getDriver(Configuration.browser(),Configuration.SeleniumServer(),Configuration.ServerPort());
 		}
 		else
 		{
-		driver = driverFactory.getDriver(Browser,configuration.SeleniumServer(),configuration.ServerPort());
+		driver = driverFactory.getDriver(Browser,Configuration.SeleniumServer(),Configuration.ServerPort());
 		}
 		 new Action(driver);
 		// System.out.println(driver);
@@ -62,17 +64,16 @@ public  class TestBase {
 	  }
 	  
 	  @AfterTest
-	  public static void afterClass()
+	  public static void afterTest()
 	  {
 		  driver.manage().deleteAllCookies();
 		  driver.quit();
-		    String verificationErrorString = verificationErrors.toString();
-		    if (!"".equals(verificationErrorString)) {
-		      Assert.fail(verificationErrorString);
+		    String verificationErrorString = Log.verificationErrors.toString();
+		     Assert.fail(verificationErrorString);
 		    }
 	  }
 	  
 
-	  }
+	 
 	
 

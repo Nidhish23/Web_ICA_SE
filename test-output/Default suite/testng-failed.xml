@@ -5,11 +5,10 @@
     <classes>
       <class name="testscript.SmokeTest">
         <methods>
-          <include name="Verify_Login_Functionality_With_6Digit"/>
+          <include name="Verify_StoreCache_Functionality_With_Login"/>
           <include name="BeforeSuit"/>
-          <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="Verify_Login_Functionality_With_4Digit"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
         </methods>
       </class> <!-- testscript.SmokeTest -->
     </classes>
