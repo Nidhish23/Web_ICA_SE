@@ -5,8 +5,8 @@
     <classes>
       <class name="testscript.SmokeTest">
         <methods>
-          <include name="Verify_StoreCache_Functionality_With_Login"/>
           <include name="BeforeSuit"/>
+          <include name="Verify_Matkassen_Order_Flow"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>

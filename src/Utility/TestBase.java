@@ -32,9 +32,7 @@ public  class TestBase {
 	 
 	public static  WebDriver driver=null;
 	static WebdriverFactory   driverFactory = new WebdriverFactory();
-	  public static StringBuffer verificationErrors = new StringBuffer();
-	
-	  Action Action ;
+    Action Action ;
 	 
 	  @BeforeSuite
 	  public static void BeforeSuit()
@@ -48,7 +46,7 @@ public  class TestBase {
 
 	public static void beforeTest(@Optional String Browser) {
 		
-		new Log("error");
+		////new Log("error");
 		if (Browser==null)
 		{
 		

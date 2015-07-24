@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" name="Failed suite [TestSuit]">
-  <parameter name="Browser" value="chrome"/>
-  <listeners>
-    <listener class-name="test.Core.Log"/>
-  </listeners>
-  <test name="SmokeTest with Chrome(failed)">
-    <parameter name="Browser" value="chrome"/>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="testscript.SmokeTest">
         <methods>
-          <include name="Verify_StoreCache_Functionality_With_Login"/>
           <include name="BeforeSuit"/>
+          <include name="Verify_Matkassen_Order_Flow"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>
       </class> <!-- testscript.SmokeTest -->
     </classes>
-  </test> <!-- SmokeTest with Chrome(failed) -->
-</suite> <!-- Failed suite [TestSuit] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

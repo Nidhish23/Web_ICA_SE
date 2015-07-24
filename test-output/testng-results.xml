@@ -2,39 +2,73 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuit" duration-ms="38678" started-at="2015-07-23T13:48:03Z" finished-at="2015-07-23T13:48:42Z">
+  <suite name="Default suite" duration-ms="29096" started-at="2015-07-24T10:28:57Z" finished-at="2015-07-24T10:29:26Z">
     <groups>
       <group name="ICA.SE-Smoke Test">
-        <method signature="SmokeTest.Verify_StoreCache_Functionality_With_Login()[pri:0, instance:testscript.SmokeTest@675690]" name="Verify_StoreCache_Functionality_With_Login" class="testscript.SmokeTest"/>
+        <method signature="SmokeTest.Verify_Matkassen_Order_Flow()[pri:0, instance:testscript.SmokeTest@71cca7]" name="Verify_Matkassen_Order_Flow" class="testscript.SmokeTest"/>
       </group> <!-- ICA.SE-Smoke Test -->
     </groups>
-    <test name="SmokeTest with Chrome" duration-ms="38678" started-at="2015-07-23T13:48:03Z" finished-at="2015-07-23T13:48:42Z">
+    <test name="Default test" duration-ms="29096" started-at="2015-07-24T10:28:57Z" finished-at="2015-07-24T10:29:26Z">
       <class name="testscript.SmokeTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testscript.SmokeTest@675690]" name="beforeTest" is-config="true" duration-ms="3892" started-at="2015-07-23T15:48:03Z" finished-at="2015-07-23T15:48:07Z">
+        <test-method status="PASS" signature="BeforeSuit()[pri:0, instance:testscript.SmokeTest@71cca7]" name="BeforeSuit" is-config="true" duration-ms="16" started-at="2015-07-24T12:28:57Z" finished-at="2015-07-24T12:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuit -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testscript.SmokeTest@71cca7]" name="beforeTest" is-config="true" duration-ms="7857" started-at="2015-07-24T12:28:57Z" finished-at="2015-07-24T12:29:05Z">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
+              <value is-null="true"/>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="BeforeSuit()[pri:0, instance:testscript.SmokeTest@675690]" name="BeforeSuit" is-config="true" duration-ms="0" started-at="2015-07-23T15:48:03Z" finished-at="2015-07-23T15:48:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSuit -->
-        <test-method status="FAIL" signature="Verify_StoreCache_Functionality_With_Login()[pri:0, instance:testscript.SmokeTest@675690]" name="Verify_StoreCache_Functionality_With_Login" duration-ms="33153" started-at="2015-07-23T15:48:07Z" description="Verify StoreCache Functionality With Login" finished-at="2015-07-23T15:48:40Z">
-          <exception class="java.lang.NullPointerException">
+        <test-method status="FAIL" signature="Verify_Matkassen_Order_Flow()[pri:0, instance:testscript.SmokeTest@71cca7]" name="Verify_Matkassen_Order_Flow" duration-ms="20913" started-at="2015-07-24T12:29:05Z" description="Verify StoreCache Functionality With Login" finished-at="2015-07-24T12:29:26Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"link text","selector":"Logga in"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+Command duration or timeout: 20.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=8b4c710f-3383-4b4b-90db-23a9bb4fe281, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8b4c710f-3383-4b4b-90db-23a9bb4fe281
+*** Element info: {Using=link text, value=Logga in}]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at test.Core.Log.Error(Log.java:85)
-	at test.Core.Action.AssertFail(Action.java:334)
-	at test.Core.Action.WaitForTextPresent(Action.java:273)
-	at test.Core.Action.VerifyTextPresent(Action.java:245)
-	at pageObjects.HomePage.VerifyStoreCache(HomePage.java:75)
-	at testscript.SmokeTest.Verify_StoreCache_Functionality_With_Login(SmokeTest.java:92)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Logga in"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+Command duration or timeout: 20.30 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=8b4c710f-3383-4b4b-90db-23a9bb4fe281, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8b4c710f-3383-4b4b-90db-23a9bb4fe281
+*** Element info: {Using=link text, value=Logga in}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at test.Core.Action.FindElement(Action.java:317)
+	at test.Core.Action.Click(Action.java:98)
+	at pageObjects.HomePage.NavigateToLoginpage(HomePage.java:45)
+	at testscript.SmokeTest.Verify_Matkassen_Order_Flow(SmokeTest.java:107)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -59,17 +93,34 @@
 	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
+	... 33 more
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Logga in"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/OFFNJA/AppData/Local/Temp/2/anonymous8776482737244223663webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/OFFNJA/AppData/Local/Temp/2/anonymous8776482737244223663webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_StoreCache_Functionality_With_Login -->
-        <test-method status="FAIL" signature="afterTest()[pri:0, instance:testscript.SmokeTest@675690]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-07-23T15:48:40Z" finished-at="2015-07-23T15:48:40Z">
+        </test-method> <!-- Verify_Matkassen_Order_Flow -->
+        <test-method status="FAIL" signature="afterTest()[pri:0, instance:testscript.SmokeTest@71cca7]" name="afterTest" is-config="true" duration-ms="0" started-at="2015-07-24T12:29:26Z" finished-at="2015-07-24T12:29:26Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at Utility.TestBase.afterTest(TestBase.java:71)
+	at Utility.TestBase.afterTest(TestBase.java:69)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -99,6 +150,6 @@
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- testscript.SmokeTest -->
-    </test> <!-- SmokeTest with Chrome -->
-  </suite> <!-- TestSuit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

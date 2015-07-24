@@ -15,6 +15,17 @@ public class PageObjects {
  return new HomePage(this);
 		
 	}
+	
+	public HandlaHomePage GetHandlaHomePage()
+	{
+ return new HandlaHomePage(this);
 		
+	}
+	
+	public MatkassenPage GetMatkassenPage()
+	{
+ return new MatkassenPage(this);
+		
+	}
 	
 }

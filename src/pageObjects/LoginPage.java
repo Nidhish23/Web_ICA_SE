@@ -24,7 +24,7 @@ public class LoginPage extends MasterPage {
 	public static  LocatorObject Keep_Me_Login_Chkbox = new LocatorObject("ctl00_ctl00_Content_cphOutsidePageWrapper_Label1","Login page>Keep me login ",LocatorObject.ID);
    //Local Variables 
 	//method to get page object
-    public LoginPage getLoginPage(){
+    public LoginPage atLoginPage(){
 		
 		return this;
 	}

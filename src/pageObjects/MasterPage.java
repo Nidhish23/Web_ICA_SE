@@ -14,17 +14,28 @@ Configuration configuration = new Configuration();
 		this.repository=repository;
 	}
 	
-	public  LoginPage GoToLoginPage()
+	public  LoginPage GetLoginPage()
 	{
 		return repository.GetLoginPage();
 	}
 	
-	public  HomePage GoToHomePage()
+	public  HomePage GetHomePage()
 	{
        return repository.GetHomePage();
 		
 	}
 	
+	public  HandlaHomePage GetHandlaHomePage()
+	{
+       return repository.GetHandlaHomePage();
+		
+	}
+	
+	public  MatkassenPage GetMatkassenPage()
+	{
+       return repository.GetMatkassenPage();
+		
+	}
 	
 	//Master Page Locator Object inherited by all the child pages 
 	public static  LocatorObject Logout_Link = new LocatorObject("(//a[contains(text(),'Logga ut')])[2]","Home page> Click Logout",LocatorObject.XPATH);

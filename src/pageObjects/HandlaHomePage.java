@@ -11,27 +11,22 @@ import Utility.Configuration;
 import test.Core.*;
 import Utility.*;
 
-public class HomePage extends MasterPage {
+public class HandlaHomePage extends MasterPage {
 
 	
-	public HomePage(PageObjects repository)
+	public HandlaHomePage(PageObjects repository)
 	{
 	super(repository);
 	}
 	
+	public static  LocatorObject Matkassen_Link = new LocatorObject("(//a[contains(text(),'Matkassen')])[2]","Handla Home Page>Menu bar> Matkassen Link",LocatorObject.XPATH);
 		
-	  public HomePage atHomePage(){
+	  public HandlaHomePage atHandlaHomePage(){
 			
 				return this;
 			}
 	  
-	  public HomePage GotoHomePage()
-	{
-		// ActionLog("Login to home page" +  configuration.ServerName());
-		System.out.println(Configuration.ServerName());
-		Action.OpenURl(Configuration.ServerName());
-		return this;
-	}
+	
 	// <summary>
 //   Navigate to login page
 //</summary>
@@ -39,18 +34,10 @@ public class HomePage extends MasterPage {
 //    Author:	Nidhish Jain
 //    Date:	07/22/2015		Action: Created
 //</revision>
-public HomePage NavigateToLoginpage() 
+public HandlaHomePage NavigateToMatkassen() 
 {
 	//Action.waitt(Login_Link);
 	Action.Click(Login_Link);
-	
-	return this;
-}
-
-public HomePage NavigateToHandlaHomePage() 
-{
-	//Action.waitt(Login_Link);
-	Action.Click(Handla_Button);
 	
 	return this;
 }
@@ -61,7 +48,7 @@ public HomePage NavigateToHandlaHomePage()
 //Author:	Nidhish Jain
 //Date:	07/22/2015		Action: Created
 //</revision>
-public HomePage NavigateToMittICA()
+public HandlaHomePage NavigateToMittICA()
 {
 	Action.Click(Mitt_ICA_Link);
 	return this;
@@ -74,7 +61,7 @@ public HomePage NavigateToMittICA()
 //Author:	Nidhish Jain
 //Date:	07/22/2015		Action: Created
 //</revision>
-public HomePage VerifyStoreCache()
+public HandlaHomePage VerifyStoreCache()
 {
 	Action.ActionLog("verify store cache URl "+Configuration.StoreCache());
 	Action.ActionLog(" Expected Result :Store Cache functionality should run successfully");

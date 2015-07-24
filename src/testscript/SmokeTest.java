@@ -33,13 +33,14 @@ public static void Verify_Login_Functionality_With_3Digit() {
         
 		begin
 	       .GoToHomePage()
-	       .getHomePage()
+	       .atHomePage()
 	       .GotoHomePage()
 	       .NavigateToLoginpage()
-	       .GoToLoginPage()
-	       .getLoginPage()
+	       .GetLoginPage()
+	       .atLoginPage()
 	       .Login(login.username,login.password);
-         
+	      
+	
   }
 //@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 6 digit pin(New customer)")
 public static void Verify_Login_Functionality_With_6Digit() {
@@ -49,11 +50,11 @@ public static void Verify_Login_Functionality_With_6Digit() {
     
 	begin
        .GoToHomePage()
-       .getHomePage()
+       .atHomePage()
        .GotoHomePage()
        .NavigateToLoginpage()
-       .GoToLoginPage()
-       .getLoginPage()
+       .GetLoginPage()
+       .atLoginPage()
        .Login(login.username,login.password);
      
 }
@@ -65,15 +66,15 @@ public static void Verify_Login_Functionality_With_4Digit() {
     
 	begin
        .GoToHomePage()
-       .getHomePage()
+       .atHomePage()
        .GotoHomePage()
        .NavigateToLoginpage()
-       .GoToLoginPage()
-       .getLoginPage()
+       .GetLoginPage()
+       .atLoginPage()
        .Login(login.username,login.password);
      
 }
-@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify StoreCache Functionality With Login")
+//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify StoreCache Functionality With Login")
 public static void Verify_StoreCache_Functionality_With_Login() {
 	
 	LoginData login=  LoginData.Initialize("6digit");
@@ -81,18 +82,43 @@ public static void Verify_StoreCache_Functionality_With_Login() {
     
 	begin
        .GoToHomePage()
-       .getHomePage()
+       .atHomePage()
        .GotoHomePage()
        .NavigateToLoginpage()
-       .GoToLoginPage()
-       .getLoginPage()
+       .GetLoginPage()
+       .atLoginPage()
        .Login(login.username,login.password)
-       .GoToHomePage()
-       .getHomePage()
+       .GetHomePage()
+       .atHomePage()
        .VerifyStoreCache();
      
 }
  
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify StoreCache Functionality With Login")
+public static void Verify_Matkassen_Order_Flow() {
+	
+	LoginData login=  LoginData.Initialize("4digit");
+	Begin begin =new Begin();
+    
+	begin
+       .GoToHomePage()
+       .atHomePage()
+       .GotoHomePage()
+       .NavigateToLoginpage()
+       .GetLoginPage()
+       .atLoginPage()
+       .Login(login.username,login.password)
+       .GetHomePage()
+       .atHomePage()
+       .NavigateToHandlaHomePage()
+       .GetHandlaHomePage()
+       .NavigateToMatkassen()
+       .GetMatkassenPage()
+       .atMatkassenPage()
+       .SearchZipcode("11720");
+     
+}
+
   }
 
 
