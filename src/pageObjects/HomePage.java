@@ -63,7 +63,10 @@ public HomePage NavigateToHandlaHomePage()
 //</revision>
 public HomePage NavigateToMittICA()
 {
-	Action.Click(Mitt_ICA_Link);
+	if(Action.IsVisible(Guest_Mitt_ICA_Link))
+		Action.Click(Guest_Mitt_ICA_Link);
+		else
+			Action.Click(SignIN_Mitt_ICA_Link);
 	return this;
 }
 

@@ -28,4 +28,10 @@ public class PageObjects {
 		
 	}
 	
+	public ShoppingListPage GetShoppingListPage()
+	{
+ return new ShoppingListPage(this);
+		
+	}
+	
 }

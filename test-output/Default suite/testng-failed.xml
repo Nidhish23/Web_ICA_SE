@@ -6,7 +6,7 @@
       <class name="testscript.SmokeTest">
         <methods>
           <include name="BeforeSuit"/>
-          <include name="Verify_Matkassen_Order_Flow"/>
+          <include name="Verify_Add_Item_To_Shopping_List"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
         </methods>

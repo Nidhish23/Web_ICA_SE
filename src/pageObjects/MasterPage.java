@@ -36,6 +36,12 @@ Configuration configuration = new Configuration();
        return repository.GetMatkassenPage();
 		
 	}
+	public  ShoppingListPage GetShoppingListPage()
+	{
+       return repository.GetShoppingListPage();
+		
+	}
+	
 	
 	//Master Page Locator Object inherited by all the child pages 
 	public static  LocatorObject Logout_Link = new LocatorObject("(//a[contains(text(),'Logga ut')])[2]","Home page> Click Logout",LocatorObject.XPATH);
@@ -48,9 +54,10 @@ Configuration configuration = new Configuration();
 	public static  LocatorObject RecipeSearch_Textbox = new LocatorObject("search2","Recipe page> Enter searchterm",LocatorObject.ID);
 	public static  LocatorObject RecipeSearch_Button = new LocatorObject("//button[@type='submit'])[2]","Recipe Page> Recipe Search Button",LocatorObject.XPATH);
 	public static  LocatorObject RecipeSave_Button = new LocatorObject("Spara","Recipe page> Recipe Save",LocatorObject.LINKTEXT);
-	public static  LocatorObject Mitt_ICA_Link = new LocatorObject("Mitt ICA","Master> Click on Mitt ICA project",LocatorObject.LINKTEXT);
+	public static  LocatorObject Guest_Mitt_ICA_Link = new LocatorObject("Mitt ICA","Master> Click on Mitt ICA project",LocatorObject.LINKTEXT);
 	public static  LocatorObject Login_Link = new LocatorObject("Logga in","Master> Login Link",LocatorObject.LINKTEXT);
 	public static  LocatorObject Stang_Link = new LocatorObject("Stäng","Master> stang",LocatorObject.LINKTEXT);       
 	public static  LocatorObject Skip_3digit_Link = new LocatorObject("Jag vill välja lösenord senare","Master> Jag vill välja lösenord senare",LocatorObject.LINKTEXT);
-	
+	public static  LocatorObject SignIN_Mitt_ICA_Link = new LocatorObject("//nav[@id='globalnav']/section/ul/li/a","Master> Click on Mitt ICA  after Sign IN ",LocatorObject.XPATH);
+	//nav[@id='globalnav']/section/ul/li/a
 }

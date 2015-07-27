@@ -9,3 +9,9 @@
 4digit:
   UserName : 8602130018
   Password : '0000'
+  
+Wrongdigit:
+  UserName : 860213078
+  Password : 43545
+  
+  

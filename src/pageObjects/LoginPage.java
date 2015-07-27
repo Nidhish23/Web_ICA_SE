@@ -37,7 +37,7 @@ public class LoginPage extends MasterPage {
     	Action.enterText(Password_Textbox, Password.toString());
     	Action.Click(Keep_Me_Login_Chkbox);
     	Action.Click(Login_Button);
-    	Action.driverwait(10);
+    	Action.driverwait(3);
     	if(Action.IsVisible(Skip_3digit_Link))
     	{
     		Action.Click(Skip_3digit_Link);

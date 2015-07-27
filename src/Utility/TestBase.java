@@ -66,8 +66,8 @@ public  class TestBase {
 	  {
 		  driver.manage().deleteAllCookies();
 		  driver.quit();
-		    String verificationErrorString = Log.verificationErrors.toString();
-		     Assert.fail(verificationErrorString);
+		   // String verificationErrorString = Log.verificationErrors.toString();
+		 //    Assert.fail(verificationErrorString);
 		    }
 	  }
 	  
