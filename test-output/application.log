@@ -1,0 +1,681 @@
+2015-07-29 11:58:31,207 INFO t.C.Log [main] Test case started
+2015-07-29 11:58:31,240 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 11:58:31,240 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 11:58:31,240 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 11:58:31,240 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 11:58:31,240 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 11:58:37,122 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 11:58:39,167 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 12:02:37,779 INFO t.C.Log [main] Test case started
+2015-07-29 12:02:37,801 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:02:37,817 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:02:37,817 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:02:37,817 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:02:37,817 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:02:48,547 ERROR t.C.Log [main] || Expected Result :  ---|| Actual Result: NoSuchElementException: The Object Master> Login Link not found! no such element
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+*** Element info: {Using=link text, value=Logga in}
+Command duration or timeout: 10.33 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0
+*** Element info: {Using=link text, value=Logga in} || 
+2015-07-29 12:02:58,707 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 12:02:58,841 INFO t.C.Log [main] Failed Screenshot Saved at :C:\Users\OFFNJA\Documents\GitHub\Master\Web_ICA_SE\test-output\20150729Screenshots\Verify_Add_Item_To_Shopping_List.jpg
+2015-07-29 12:02:58,870 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:02:58,870 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:02:58,870 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_3Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:02:58,870 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:02:58,870 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:09,107 ERROR t.C.Log [main] || Expected Result :  ---|| Actual Result: NoSuchElementException: The Object Master> Login Link not found! no such element
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+*** Element info: {Using=link text, value=Logga in}
+Command duration or timeout: 10.20 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0
+*** Element info: {Using=link text, value=Logga in} || 
+2015-07-29 12:03:12,610 ERROR t.C.Log [main] Test 'Verify_Login_Functionality_With_3Digit' FAILED
+2015-07-29 12:03:14,671 ERROR t.C.Log [main] || Expected Result :  ---|| Actual Result: chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.06 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0 || 
+2015-07-29 12:03:16,731 INFO t.C.Log [main] Cookie deletion failed. chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.06 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0
+2015-07-29 12:03:16,731 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:16,731 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:16,731 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_4Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:03:16,731 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:16,731 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:18,807 INFO t.C.Log [main] Cookie deletion failed. chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.06 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.08 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0
+2015-07-29 12:03:21,117 ERROR t.C.Log [main] Test 'Verify_Login_Functionality_With_4Digit' FAILED
+2015-07-29 12:03:23,162 ERROR t.C.Log [main] || Expected Result :  ---|| Actual Result: chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.04 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0 || 
+2015-07-29 12:03:25,222 INFO t.C.Log [main] Cookie deletion failed. chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.06 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0
+2015-07-29 12:03:25,222 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:25,222 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:25,222 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_6Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:03:25,222 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:25,222 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:27,283 INFO t.C.Log [main] Cookie deletion failed. chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.06 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0
+2015-07-29 12:03:29,639 ERROR t.C.Log [main] Test 'Verify_Login_Functionality_With_6Digit' FAILED
+2015-07-29 12:03:31,700 ERROR t.C.Log [main] || Expected Result :  ---|| Actual Result: chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.06 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0 || 
+2015-07-29 12:03:33,791 INFO t.C.Log [main] Cookie deletion failed. chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.09 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0
+2015-07-29 12:03:33,791 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:33,791 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:33,791 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Wrong_Credentials       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:03:33,791 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:33,791 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:35,867 INFO t.C.Log [main] Cookie deletion failed. chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.06 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.08 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0
+2015-07-29 12:03:38,208 ERROR t.C.Log [main] Test 'Verify_Wrong_Credentials' FAILED
+2015-07-29 12:03:40,253 ERROR t.C.Log [main] || Expected Result :  ---|| Actual Result: chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.03 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.04 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0 || 
+2015-07-29 12:03:42,329 INFO t.C.Log [main] Cookie deletion failed. chrome not reachable
+  (Session info: chrome=44.0.2403.107)
+  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.04 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d38fb599e3efbb7fe4d993973e51aefe
+Command duration or timeout: 2.08 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir6552_15857}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=b77ff879-9535-4a7e-be6f-15091ebf4cf0, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b77ff879-9535-4a7e-be6f-15091ebf4cf0
+2015-07-29 12:03:50,841 INFO t.C.Log [main] Test case started
+2015-07-29 12:03:50,842 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:50,843 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:50,843 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:03:50,843 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:50,843 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:03:55,718 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:04:08,819 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:04:08,819 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:04:08,819 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:04:12,390 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:04:22,509 INFO t.C.Log [main] No Item present to remove
+2015-07-29 12:04:22,509 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 12:04:22,990 INFO t.C.Log [main] Item added successfully to shopping listEgg
+2015-07-29 12:04:22,990 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 12:04:23,480 INFO t.C.Log [main] Item added successfully to shopping listButter
+2015-07-29 12:04:23,480 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:04:24,085 INFO t.C.Log [main] Egg verified successfully in the locator Shopping List page> Item label
+2015-07-29 12:04:24,086 INFO t.C.Log [main] Egg :Verify successfully in shopping list
+2015-07-29 12:04:24,086 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:04:25,881 INFO t.C.Log [main] Butter not found in the locator Shopping List page> Item label
+2015-07-29 12:04:26,057 INFO t.C.Log [main] Butter verified successfully in the locator Shopping List page> Item label
+2015-07-29 12:04:26,057 INFO t.C.Log [main] Butter :Verify successfully in shopping list
+2015-07-29 12:04:26,057 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:04:37,350 INFO t.C.Log [main] No Item present to remove
+2015-07-29 12:04:37,350 INFO t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' PASSED
+2015-07-29 12:04:37,406 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:04:37,406 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:04:37,406 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_3Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:04:37,406 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:04:37,406 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:04:39,604 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:04:46,753 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:04:46,754 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:04:46,754 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:04:46,754 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_3Digit' PASSED
+2015-07-29 12:04:46,967 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:04:46,967 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:04:46,967 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_4Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:04:46,967 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:04:46,967 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:04:49,065 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:05:01,205 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:05:01,205 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:05:01,205 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:05:01,206 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_4Digit' PASSED
+2015-07-29 12:05:01,271 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:05:01,271 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:05:01,271 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_6Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:05:01,271 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:05:01,272 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:05:03,394 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:05:15,361 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:05:15,361 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:05:15,361 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:05:15,362 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_6Digit' PASSED
+2015-07-29 12:05:15,418 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:05:15,418 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:05:15,418 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Wrong_Credentials       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:05:15,418 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:05:15,418 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:05:17,468 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:05:31,287 ERROR t.C.Log [main] || Expected Result :  ---|| Actual Result: NoSuchElementException: The Object Home page> Click Logout not found! Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Logga ut')])[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+Command duration or timeout: 3.26 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=a123c342-1a6f-4034-8439-443bfeb15950, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a123c342-1a6f-4034-8439-443bfeb15950
+*** Element info: {Using=xpath, value=(//a[contains(text(),'Logga ut')])[2]} || 
+2015-07-29 12:05:34,461 ERROR t.C.Log [main] Test 'Verify_Wrong_Credentials' FAILED
+2015-07-29 12:05:34,532 INFO t.C.Log [main] Failed Screenshot Saved at :C:\Users\OFFNJA\Documents\GitHub\Master\Web_ICA_SE\test-output\20150729Screenshots\Verify_Wrong_Credentials.jpg
+2015-07-29 12:05:35,039 INFO t.C.Log [main] TestExecution Report and Log placed at :C:\Users\OFFNJA\Documents\GitHub\Master\Web_ICA_SE\Log\20150729_2
+2015-07-29 12:08:18,777 INFO t.C.Log [main] Test case started
+2015-07-29 12:08:18,787 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:08:18,787 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:08:18,787 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:08:18,787 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:08:18,787 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:08:29,566 ERROR t.C.Log [main] || Expected Result :  ---|| Actual Result: NoSuchElementException: The Object Master> Login Link not found! Unable to locate element: {"method":"link text","selector":"Logga in"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+Command duration or timeout: 10.46 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=ba13a519-5276-44b7-9f38-6ece3c891502, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ba13a519-5276-44b7-9f38-6ece3c891502
+*** Element info: {Using=link text, value=Logga in} || 
+2015-07-29 12:08:39,891 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 12:08:39,960 INFO t.C.Log [main] Failed Screenshot Saved at :C:\Users\OFFNJA\Documents\GitHub\Master\Web_ICA_SE\test-output\20150729Screenshots\Verify_Add_Item_To_Shopping_List.jpg
+2015-07-29 12:08:40,001 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:08:40,001 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:08:40,002 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_6Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:08:40,002 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:08:40,002 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:08:42,802 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:08:55,436 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:08:55,436 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:08:55,436 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:08:55,437 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_6Digit' PASSED
+2015-07-29 12:10:45,609 INFO t.C.Log [main] Test case started
+2015-07-29 12:10:45,619 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:10:45,619 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:10:45,619 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:10:45,619 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:10:45,619 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:10:51,267 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:11:03,434 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:11:03,434 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:11:03,434 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:11:07,122 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:11:17,253 INFO t.C.Log [main] No Item present to remove
+2015-07-29 12:11:17,253 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 12:11:17,767 INFO t.C.Log [main] Item added successfully to shopping listEgg
+2015-07-29 12:11:17,767 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 12:11:18,265 INFO t.C.Log [main] Item added successfully to shopping listButter
+2015-07-29 12:11:18,265 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:11:18,644 INFO t.C.Log [main] Egg verified successfully in the locator Shopping List page> Item label
+2015-07-29 12:11:18,644 INFO t.C.Log [main] Egg :Verify successfully in shopping list
+2015-07-29 12:11:18,644 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:11:20,462 INFO t.C.Log [main] Butter not found in the locator Shopping List page> Item label
+2015-07-29 12:11:20,631 INFO t.C.Log [main] Butter verified successfully in the locator Shopping List page> Item label
+2015-07-29 12:11:20,631 INFO t.C.Log [main] Butter :Verify successfully in shopping list
+2015-07-29 12:11:20,631 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:11:31,918 INFO t.C.Log [main] No Item present to remove
+2015-07-29 12:11:31,919 INFO t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' PASSED
+2015-07-29 12:11:31,982 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:11:31,982 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:11:31,982 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_6Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:11:31,982 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:11:31,982 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:11:34,355 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:11:46,203 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:11:46,203 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:11:46,203 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:11:46,204 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_6Digit' PASSED
+2015-07-29 12:12:07,738 INFO t.C.Log [main] TestExecution Report and Log placed at :C:\Users\OFFNJA\Documents\GitHub\Master\Web_ICA_SE\Log\20150729_2
+2015-07-29 12:15:20,744 INFO t.C.Log [main] Test case started
+2015-07-29 12:15:20,758 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:15:20,758 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:15:20,758 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:15:20,758 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:15:20,758 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:15:29,159 ERROR t.C.Log [main] || Expected Result :  ---|| Actual Result: NoSuchElementException: The Object Master> Login Link not found! Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 8.10 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=b85f8908-d5af-42f3-b0e9-723dfcb0534c, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: b85f8908-d5af-42f3-b0e9-723dfcb0534c
+*** Element info: {Using=link text, value=Logga in} || 
+2015-07-29 12:16:39,842 INFO t.C.Log [main] Test case started
+2015-07-29 12:16:39,852 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:16:39,852 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:16:39,852 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:16:39,852 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:16:39,852 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:16:45,087 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:16:57,382 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:16:57,382 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:16:57,382 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:17:01,034 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:17:11,118 INFO t.C.Log [main] No Item present to remove
+2015-07-29 12:17:11,119 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 12:17:11,599 INFO t.C.Log [main] Item added successfully to shopping listEgg
+2015-07-29 12:17:11,600 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 12:17:12,095 INFO t.C.Log [main] Item added successfully to shopping listButter
+2015-07-29 12:17:12,095 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:17:14,547 INFO t.C.Log [main] Egg not found in the locator Shopping List page> Item label
+2015-07-29 12:17:14,721 INFO t.C.Log [main] Egg verified successfully in the locator Shopping List page> Item label
+2015-07-29 12:17:14,721 INFO t.C.Log [main] Egg :Verify successfully in shopping list
+2015-07-29 12:17:14,721 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:17:14,899 INFO t.C.Log [main] Butter verified successfully in the locator Shopping List page> Item label
+2015-07-29 12:17:14,900 INFO t.C.Log [main] Butter :Verify successfully in shopping list
+2015-07-29 12:17:14,900 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:17:26,235 INFO t.C.Log [main] No Item present to remove
+2015-07-29 12:17:26,236 INFO t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' PASSED
+2015-07-29 12:17:26,299 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:17:26,299 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:17:26,299 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_6Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:17:26,300 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:17:26,300 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:17:28,503 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:17:40,726 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:17:40,726 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:17:40,727 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:17:40,728 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_6Digit' PASSED
+2015-07-29 12:18:11,330 INFO t.C.Log [main] TestExecution Report and Log placed at :C:\Users\OFFNJA\Documents\GitHub\Master\Web_ICA_SE\Log\20150729_2
+2015-07-29 12:30:40,720 INFO t.C.Log [main] Test case started
+2015-07-29 12:30:40,730 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:30:40,730 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:30:40,730 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:30:40,730 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:30:40,730 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:30:48,135 ERROR t.C.Log [main] || Expected Result :  ---|| Actual Result: NoSuchElementException: The Object Master> Login Link not found! Error communicating with the remote browser. It may have died.
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: driver.version: EventFiringWebDriver
+Command duration or timeout: 7.14 seconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=8e2f2b8a-e938-463c-969f-de3ed29569ae, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 8e2f2b8a-e938-463c-969f-de3ed29569ae
+*** Element info: {Using=link text, value=Logga in} || 
+2015-07-29 12:31:30,460 INFO t.C.Log [main] Test case started
+2015-07-29 12:31:30,470 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:31:30,470 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:31:30,470 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:31:30,471 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:31:30,471 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:31:36,004 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:31:48,507 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:31:48,507 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:31:48,507 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:31:52,190 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:32:02,274 INFO t.C.Log [main] No Item present to remove
+2015-07-29 12:32:02,274 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 12:32:02,799 INFO t.C.Log [main] Item added successfully to shopping listEgg
+2015-07-29 12:32:02,799 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 12:32:03,287 INFO t.C.Log [main] Item added successfully to shopping listButter
+2015-07-29 12:32:03,287 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:32:05,533 INFO t.C.Log [main] Egg not found in the locator Shopping List page> Item label
+2015-07-29 12:32:05,701 INFO t.C.Log [main] Egg verified successfully in the locator Shopping List page> Item label
+2015-07-29 12:32:05,701 INFO t.C.Log [main] Egg :Verify successfully in shopping list
+2015-07-29 12:32:05,701 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:32:05,873 INFO t.C.Log [main] Butter verified successfully in the locator Shopping List page> Item label
+2015-07-29 12:32:05,873 INFO t.C.Log [main] Butter :Verify successfully in shopping list
+2015-07-29 12:32:05,873 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:32:17,148 INFO t.C.Log [main] No Item present to remove
+2015-07-29 12:32:17,149 INFO t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' PASSED
+2015-07-29 12:32:17,213 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:32:17,213 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:32:17,213 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_6Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:32:17,213 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:32:17,214 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:32:19,512 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:32:31,440 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:32:31,440 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:32:31,440 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:32:31,441 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_6Digit' PASSED
+2015-07-29 12:34:12,662 INFO t.C.Log [main] TestExecution Report and Log placed at :C:\Users\OFFNJA\Documents\GitHub\Master\Web_ICA_SE\Log\20150729_2
+2015-07-29 12:40:28,818 INFO t.C.Log [main] Test case started
+2015-07-29 12:40:28,828 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:40:28,828 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:40:28,828 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:40:28,829 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:40:28,829 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:40:34,253 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:40:47,205 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:40:47,206 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:40:47,206 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:40:50,797 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:41:00,910 INFO t.C.Log [main] No Item present to remove
+2015-07-29 12:41:00,910 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 12:41:01,403 INFO t.C.Log [main] Item added successfully to shopping listEgg
+2015-07-29 12:41:01,403 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 12:41:01,906 INFO t.C.Log [main] Item added successfully to shopping listButter
+2015-07-29 12:41:01,906 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:41:03,944 INFO t.C.Log [main] Egg not found in the locator Shopping List page> Item label
+2015-07-29 12:41:04,118 INFO t.C.Log [main] Egg verified successfully in the locator Shopping List page> Item label
+2015-07-29 12:41:04,118 INFO t.C.Log [main] Egg :Verify successfully in shopping list
+2015-07-29 12:41:04,118 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:41:04,295 INFO t.C.Log [main] Butter verified successfully in the locator Shopping List page> Item label
+2015-07-29 12:41:04,295 INFO t.C.Log [main] Butter :Verify successfully in shopping list
+2015-07-29 12:41:04,295 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 12:41:15,709 INFO t.C.Log [main] No Item present to remove
+2015-07-29 12:41:15,710 INFO t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' PASSED
+2015-07-29 12:41:15,775 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:41:15,775 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:41:15,775 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_6Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 12:41:15,775 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:41:15,775 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 12:41:18,039 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 12:41:30,049 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 12:41:30,049 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 12:41:30,049 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 12:41:30,050 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_6Digit' PASSED
+2015-07-29 12:43:12,834 INFO t.C.Log [main] TestExecution Report and Log placed under Log folder
+2015-07-29 14:45:35,375 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:45:35,391 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:45:35,391 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 14:45:35,391 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:45:35,391 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:45:35,391 INFO t.C.Log [main] Cookie deletion failed. null
+2015-07-29 14:45:35,391 INFO t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' SKIPPED
+2015-07-29 14:45:35,391 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:45:35,391 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:45:35,391 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_6Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 14:45:35,391 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:45:35,391 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:45:35,391 INFO t.C.Log [main] Cookie deletion failed. null
+2015-07-29 14:45:35,391 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_6Digit' SKIPPED
+2015-07-29 14:47:52,365 ERROR t.C.Log [main] Error forwarding the new session cannot find : Capabilities [{browserName=iPhone, deviceOrientation=landscape, version=, platform=MAC}]
+Command duration or timeout: 156 milliseconds
+Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
+System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+2015-07-29 14:47:52,365 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:47:52,365 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:47:52,365 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 14:47:52,365 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:47:52,365 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 14:47:52,365 INFO t.C.Log [main] Cookie deletion failed. null
+2015-07-29 14:47:52,414 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 14:47:52,414 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 15:26:08,488 ERROR t.C.Log [main] null value in entry: desiredCapabilities=null
+2015-07-29 15:26:08,488 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:26:08,488 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:26:08,488 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 15:26:08,488 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:26:08,488 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:26:08,488 INFO t.C.Log [main] Cookie deletion failed. null
+2015-07-29 15:26:08,550 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 15:26:08,550 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 15:26:56,514 INFO t.C.Log [main] Test case started
+2015-07-29 15:26:56,546 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:26:56,546 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:26:56,546 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 15:26:56,546 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:26:56,546 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:27:00,791 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 15:27:09,668 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 15:27:09,668 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 15:27:09,668 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 15:27:12,836 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 15:27:22,905 INFO t.C.Log [main] No Item present to remove
+2015-07-29 15:27:22,905 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 15:27:23,066 INFO t.C.Log [main] Item added successfully to shopping listEgg
+2015-07-29 15:27:23,066 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 15:27:23,220 INFO t.C.Log [main] Item added successfully to shopping listButter
+2015-07-29 15:27:23,220 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 15:27:23,402 INFO t.C.Log [main] Egg verified successfully in the locator Shopping List page> Item label
+2015-07-29 15:27:23,402 INFO t.C.Log [main] Egg :Verify successfully in shopping list
+2015-07-29 15:27:23,402 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 15:27:24,014 INFO t.C.Log [main] Butter not found in the locator Shopping List page> Item label
+2015-07-29 15:27:24,109 INFO t.C.Log [main] Butter verified successfully in the locator Shopping List page> Item label
+2015-07-29 15:27:24,109 INFO t.C.Log [main] Butter :Verify successfully in shopping list
+2015-07-29 15:27:24,109 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 15:27:34,599 INFO t.C.Log [main] No Item present to remove
+2015-07-29 15:27:34,599 INFO t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' PASSED
+2015-07-29 15:27:34,756 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:27:34,756 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:27:34,756 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_6Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 15:27:34,756 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:27:34,756 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:27:35,717 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 15:27:44,233 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 15:27:44,233 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 15:27:44,233 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 15:27:44,233 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_6Digit' PASSED
+2015-07-29 15:27:45,981 INFO t.C.Log [main] TestExecution Report and Log placed under Log folder
+2015-07-29 15:28:47,997 INFO t.C.Log [main] Test case started
+2015-07-29 15:28:48,006 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:28:48,006 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:28:48,006 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 15:28:48,006 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:28:48,006 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:28:49,317 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 15:29:00,301 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 15:29:00,301 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 15:29:00,301 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 15:29:03,549 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 15:29:13,589 INFO t.C.Log [main] No Item present to remove
+2015-07-29 15:29:13,589 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 15:29:13,778 INFO t.C.Log [main] Item added successfully to shopping listEgg
+2015-07-29 15:29:13,778 INFO t.C.Log [main] Expected Result : user should be able ot add item to shopping list
+2015-07-29 15:29:13,916 INFO t.C.Log [main] Item added successfully to shopping listButter
+2015-07-29 15:29:13,917 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 15:29:14,230 INFO t.C.Log [main] Egg verified successfully in the locator Shopping List page> Item label
+2015-07-29 15:29:14,230 INFO t.C.Log [main] Egg :Verify successfully in shopping list
+2015-07-29 15:29:14,230 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 15:29:15,008 INFO t.C.Log [main] Butter not found in the locator Shopping List page> Item label
+2015-07-29 15:29:15,102 INFO t.C.Log [main] Butter verified successfully in the locator Shopping List page> Item label
+2015-07-29 15:29:15,102 INFO t.C.Log [main] Butter :Verify successfully in shopping list
+2015-07-29 15:29:15,102 INFO t.C.Log [main] Verify the item present in the shopping list
+2015-07-29 15:29:25,569 INFO t.C.Log [main] No Item present to remove
+2015-07-29 15:29:25,569 INFO t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' PASSED
+2015-07-29 15:29:25,742 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:29:25,742 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:29:25,742 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Login_Functionality_With_6Digit       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 15:29:25,742 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:29:25,742 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:29:26,519 INFO t.C.Log [main] Expected Result : User should be able to login with credentials
+2015-07-29 15:29:34,822 INFO t.C.Log [main] Home page> Click Logoutelement present
+2015-07-29 15:29:34,822 INFO t.C.Log [main] Home page> Click Logoutfind successfully
+2015-07-29 15:29:34,822 INFO t.C.Log [main] Actual Result : User Loggedin Successfully
+2015-07-29 15:29:34,822 INFO t.C.Log [main] Test 'Verify_Login_Functionality_With_6Digit' PASSED
+2015-07-29 15:29:36,523 INFO t.C.Log [main] TestExecution Report and Log placed under Log folder
+2015-07-29 15:38:39,561 ERROR t.C.Log [main] null
+2015-07-29 15:38:39,577 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:38:39,577 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:38:39,577 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 15:38:39,577 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:38:39,577 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:38:39,577 INFO t.C.Log [main] Cookie deletion failed. null
+2015-07-29 15:38:39,623 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 15:38:39,623 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 15:39:40,767 ERROR t.C.Log [main] null
+2015-07-29 15:39:40,783 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:39:40,783 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:39:40,783 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 15:39:40,783 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:39:40,783 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:39:40,783 INFO t.C.Log [main] Cookie deletion failed. null
+2015-07-29 15:39:40,830 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 15:39:40,830 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 15:41:40,481 ERROR t.C.Log [main] null
+2015-07-29 15:51:09,425 ERROR t.C.Log [main] null
+2015-07-29 15:51:09,441 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:51:09,441 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:51:09,441 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 15:51:09,441 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:51:09,441 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:51:09,441 INFO t.C.Log [main] Cookie deletion failed. null
+2015-07-29 15:51:09,503 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 15:51:09,503 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 15:54:55,222 ERROR t.C.Log [main] null
+2015-07-29 15:54:55,238 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:54:55,238 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:54:55,238 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Verify_Add_Item_To_Shopping_List       $$$$$$$$$$$$$$$$$$$$$
+2015-07-29 15:54:55,238 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:54:55,238 INFO t.C.Log [main] ****************************************************************************************
+2015-07-29 15:54:55,238 INFO t.C.Log [main] Cookie deletion failed. null
+2015-07-29 15:54:55,285 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED
+2015-07-29 15:54:55,285 ERROR t.C.Log [main] Test 'Verify_Add_Item_To_Shopping_List' FAILED

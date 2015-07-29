@@ -1,37 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="2" name="Failed suite [TestSuit]">
-  <parameter name="Browser" value="firefox"/>
+  <parameter name="Browser" value="iPhone"/>
   <listeners>
     <listener class-name="test.Core.Log"/>
   </listeners>
-  <test name="SmokeTest with Chrome(failed)">
-    <parameter name="Browser" value="chrome"/>
+  <test name="SmokeTest with firefox(failed)">
+    <parameter name="Browser" value="iPhone"/>
     <classes>
       <class name="testscript.SmokeTest">
         <methods>
           <include name="BeforeSuit"/>
-          <include name="beforeTest"/>
+          <include name="Verify_Login_Functionality_With_6Digit"/>
           <include name="beforeTest"/>
           <include name="Verify_Add_Item_To_Shopping_List"/>
-          <include name="Verify_Wrong_Credentials"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
-        </methods>
-      </class> <!-- testscript.SmokeTest -->
-    </classes>
-  </test> <!-- SmokeTest with Chrome(failed) -->
-  <test name="SmokeTest with firefox(failed)">
-    <parameter name="Browser" value="firefox"/>
-    <classes>
-      <class name="testscript.SmokeTest">
-        <methods>
-          <include name="BeforeSuit"/>
-          <include name="beforeTest"/>
-          <include name="beforeTest"/>
-          <include name="Verify_Wrong_Credentials"/>
-          <include name="afterTest"/>
-          <include name="afterTest"/>
         </methods>
       </class> <!-- testscript.SmokeTest -->
     </classes>

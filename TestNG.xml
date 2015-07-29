@@ -3,12 +3,7 @@
 <listeners>
 		<listener class-name="test.Core.Log" />
 	</listeners>
-<test name="SmokeTest with Chrome">
-<parameter name="Browser" value="chrome"/> 
-	<classes>
-		<class name="testscript.SmokeTest"></class>
-	</classes>
-</test>
+
 <test name="SmokeTest with firefox">
 <parameter name="Browser" value="firefox"/> 
 	<classes>

@@ -33,5 +33,15 @@ public class PageObjects {
  return new ShoppingListPage(this);
 		
 	}
+	public DashBoardPage GetDashBoardPage()
+	{
+ return new DashBoardPage(this);
+		
+	}
 	
+	public MittICASettingsPage GetMittICASettingsPage()
+	{
+ return new MittICASettingsPage(this);
+		
+	}
 }

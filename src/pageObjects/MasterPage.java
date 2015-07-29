@@ -41,7 +41,11 @@ Configuration configuration = new Configuration();
        return repository.GetShoppingListPage();
 		
 	}
-	
+	public  DashBoardPage GetDashBoardPage()
+	{
+       return repository.GetDashBoardPage();
+		
+	}
 	
 	//Master Page Locator Object inherited by all the child pages 
 	public static  LocatorObject Logout_Link = new LocatorObject("(//a[contains(text(),'Logga ut')])[2]","Home page> Click Logout",LocatorObject.XPATH);

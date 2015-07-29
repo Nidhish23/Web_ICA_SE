@@ -1,451 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="10" passed="7">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuit" duration-ms="156505" started-at="2015-07-28T11:15:49Z" finished-at="2015-07-28T11:18:25Z">
+  <suite name="TestSuit" duration-ms="52109" started-at="2015-07-29T13:28:44Z" finished-at="2015-07-29T13:29:36Z">
     <groups>
       <group name="ICA.SE-Smoke Test">
-        <method signature="SmokeTest.Verify_Add_Item_To_Shopping_List()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="Verify_Add_Item_To_Shopping_List" class="testscript.SmokeTest"/>
-        <method signature="SmokeTest.Verify_Login_Functionality_With_3Digit()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="Verify_Login_Functionality_With_3Digit" class="testscript.SmokeTest"/>
-        <method signature="SmokeTest.Verify_Login_Functionality_With_4Digit()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="Verify_Login_Functionality_With_4Digit" class="testscript.SmokeTest"/>
-        <method signature="SmokeTest.Verify_Login_Functionality_With_6Digit()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="Verify_Login_Functionality_With_6Digit" class="testscript.SmokeTest"/>
-        <method signature="SmokeTest.Verify_Wrong_Credentials()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="Verify_Wrong_Credentials" class="testscript.SmokeTest"/>
-        <method signature="SmokeTest.Verify_Add_Item_To_Shopping_List()[pri:0, instance:testscript.SmokeTest@180d80f]" name="Verify_Add_Item_To_Shopping_List" class="testscript.SmokeTest"/>
-        <method signature="SmokeTest.Verify_Login_Functionality_With_3Digit()[pri:0, instance:testscript.SmokeTest@180d80f]" name="Verify_Login_Functionality_With_3Digit" class="testscript.SmokeTest"/>
-        <method signature="SmokeTest.Verify_Login_Functionality_With_4Digit()[pri:0, instance:testscript.SmokeTest@180d80f]" name="Verify_Login_Functionality_With_4Digit" class="testscript.SmokeTest"/>
-        <method signature="SmokeTest.Verify_Login_Functionality_With_6Digit()[pri:0, instance:testscript.SmokeTest@180d80f]" name="Verify_Login_Functionality_With_6Digit" class="testscript.SmokeTest"/>
-        <method signature="SmokeTest.Verify_Wrong_Credentials()[pri:0, instance:testscript.SmokeTest@180d80f]" name="Verify_Wrong_Credentials" class="testscript.SmokeTest"/>
+        <method signature="SmokeTest.Verify_Add_Item_To_Shopping_List()[pri:0, instance:testscript.SmokeTest@cbc42f]" name="Verify_Add_Item_To_Shopping_List" class="testscript.SmokeTest"/>
+        <method signature="SmokeTest.Verify_Login_Functionality_With_6Digit()[pri:0, instance:testscript.SmokeTest@cbc42f]" name="Verify_Login_Functionality_With_6Digit" class="testscript.SmokeTest"/>
       </group> <!-- ICA.SE-Smoke Test -->
     </groups>
-    <test name="SmokeTest with Chrome" duration-ms="50918" started-at="2015-07-28T11:15:49Z" finished-at="2015-07-28T11:16:40Z">
+    <test name="SmokeTest with firefox" duration-ms="52109" started-at="2015-07-29T13:28:44Z" finished-at="2015-07-29T13:29:36Z">
       <class name="testscript.SmokeTest">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="beforeTest" is-config="true" duration-ms="3858" started-at="2015-07-28T13:15:49Z" finished-at="2015-07-28T13:15:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="Verify_Add_Item_To_Shopping_List()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="Verify_Add_Item_To_Shopping_List" duration-ms="10635" started-at="2015-07-28T13:15:53Z" description="Verify_Add_Item_To_Shopping_List" finished-at="2015-07-28T13:16:03Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element
-  (Session info: chrome=44.0.2403.107)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.07 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir4332_13494}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: e6ca0e33d367118c8c20bee627285c0c
-*** Element info: {Using=link text, value=Logga in}
-Command duration or timeout: 10.20 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir4332_13494}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=d1d87e80-e522-4a4b-b63d-354c4441eadd, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d1d87e80-e522-4a4b-b63d-354c4441eadd
-*** Element info: {Using=link text, value=Logga in}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=44.0.2403.107)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.07 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir4332_13494}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: e6ca0e33d367118c8c20bee627285c0c
-*** Element info: {Using=link text, value=Logga in}
-Command duration or timeout: 10.20 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir4332_13494}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=d1d87e80-e522-4a4b-b63d-354c4441eadd, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d1d87e80-e522-4a4b-b63d-354c4441eadd
-*** Element info: {Using=link text, value=Logga in}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at test.Core.Action.FindElement(Action.java:337)
-	at test.Core.Action.Click(Action.java:98)
-	at pageObjects.HomePage.NavigateToLoginpage(HomePage.java:45)
-	at testscript.SmokeTest.Verify_Add_Item_To_Shopping_List(SmokeTest.java:150)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
-	... 33 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=44.0.2403.107)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10.07 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir4332_13494}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: e6ca0e33d367118c8c20bee627285c0c
-*** Element info: {Using=link text, value=Logga in}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: EventFiringWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
-	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Add_Item_To_Shopping_List -->
-        <test-method status="PASS" signature="Verify_Login_Functionality_With_3Digit()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="Verify_Login_Functionality_With_3Digit" duration-ms="5077" started-at="2015-07-28T13:16:04Z" description="Verify the login functionality with 3 digit pin(old customer)" finished-at="2015-07-28T13:16:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Login_Functionality_With_3Digit -->
-        <test-method status="PASS" signature="Verify_Login_Functionality_With_4Digit()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="Verify_Login_Functionality_With_4Digit" duration-ms="7782" started-at="2015-07-28T13:16:09Z" description="Verify the login functionality with 4 digit pin(Bank Customer)" finished-at="2015-07-28T13:16:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Login_Functionality_With_4Digit -->
-        <test-method status="PASS" signature="Verify_Login_Functionality_With_6Digit()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="Verify_Login_Functionality_With_6Digit" duration-ms="9108" started-at="2015-07-28T13:16:17Z" description="Verify the login functionality with 6 digit pin(New customer)" finished-at="2015-07-28T13:16:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Login_Functionality_With_6Digit -->
-        <test-method status="FAIL" signature="Verify_Wrong_Credentials()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="Verify_Wrong_Credentials" duration-ms="11590" started-at="2015-07-28T13:16:26Z" description="Verify Wrong Credentials" finished-at="2015-07-28T13:16:38Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element
-  (Session info: chrome=44.0.2403.107)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir4332_13494}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: e6ca0e33d367118c8c20bee627285c0c
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Logga ut')])[2]}
-Command duration or timeout: 3.20 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir4332_13494}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=d1d87e80-e522-4a4b-b63d-354c4441eadd, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d1d87e80-e522-4a4b-b63d-354c4441eadd
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Logga ut')])[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=44.0.2403.107)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir4332_13494}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: e6ca0e33d367118c8c20bee627285c0c
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Logga ut')])[2]}
-Command duration or timeout: 3.20 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir4332_13494}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=d1d87e80-e522-4a4b-b63d-354c4441eadd, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: d1d87e80-e522-4a4b-b63d-354c4441eadd
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Logga ut')])[2]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at test.Core.Action.FindElement(Action.java:337)
-	at test.Core.Action.IsElementPresent(Action.java:150)
-	at test.Core.Action.verifyElementPresent(Action.java:127)
-	at pageObjects.LoginPage.Login(LoginPage.java:50)
-	at testscript.SmokeTest.Verify_Wrong_Credentials(SmokeTest.java:110)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
-	... 34 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element
-  (Session info: chrome=44.0.2403.107)
-  (Driver info: chromedriver=2.16.333243 (0bfa1d3575fc1044244f21ddb82bf870944ef961),platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 3.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=C:\Users\OFFNJA\AppData\Local\Temp\3\scoped_dir4332_13494}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=44.0.2403.107, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: e6ca0e33d367118c8c20bee627285c0c
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Logga ut')])[2]}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: EventFiringWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at sun.reflect.GeneratedMethodAccessor14.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:101)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:184)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:47)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:168)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Wrong_Credentials -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testscript.SmokeTest@1c6a36e]" name="afterTest" is-config="true" duration-ms="1404" started-at="2015-07-28T13:16:38Z" finished-at="2015-07-28T13:16:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- testscript.SmokeTest -->
-    </test> <!-- SmokeTest with Chrome -->
-    <test name="SmokeTest with firefox" duration-ms="105555" started-at="2015-07-28T11:16:40Z" finished-at="2015-07-28T11:18:25Z">
-      <class name="testscript.SmokeTest">
-        <test-method status="PASS" signature="BeforeSuit()[pri:0, instance:testscript.SmokeTest@180d80f]" name="BeforeSuit" is-config="true" duration-ms="390" started-at="2015-07-28T13:15:48Z" finished-at="2015-07-28T13:15:49Z">
+        <test-method status="PASS" signature="BeforeSuit()[pri:0, instance:testscript.SmokeTest@cbc42f]" name="BeforeSuit" is-config="true" duration-ms="390" started-at="2015-07-29T15:28:43Z" finished-at="2015-07-29T15:28:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeSuit -->
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testscript.SmokeTest@180d80f]" name="beforeTest" is-config="true" duration-ms="6857" started-at="2015-07-28T13:16:40Z" finished-at="2015-07-28T13:16:47Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testscript.SmokeTest@cbc42f]" name="beforeTest" is-config="true" duration-ms="3693" started-at="2015-07-29T15:28:44Z" finished-at="2015-07-29T15:28:47Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[iPhone]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Verify_Add_Item_To_Shopping_List()[pri:0, instance:testscript.SmokeTest@180d80f]" name="Verify_Add_Item_To_Shopping_List" duration-ms="44478" started-at="2015-07-28T13:16:47Z" description="Verify_Add_Item_To_Shopping_List" finished-at="2015-07-28T13:17:31Z">
+        <test-method status="PASS" signature="Verify_Add_Item_To_Shopping_List()[pri:0, instance:testscript.SmokeTest@cbc42f]" name="Verify_Add_Item_To_Shopping_List" duration-ms="37566" started-at="2015-07-29T15:28:48Z" description="Verify_Add_Item_To_Shopping_List" finished-at="2015-07-29T15:29:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Add_Item_To_Shopping_List -->
-        <test-method status="PASS" signature="Verify_Login_Functionality_With_3Digit()[pri:0, instance:testscript.SmokeTest@180d80f]" name="Verify_Login_Functionality_With_3Digit" duration-ms="9474" started-at="2015-07-28T13:17:31Z" description="Verify the login functionality with 3 digit pin(old customer)" finished-at="2015-07-28T13:17:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Login_Functionality_With_3Digit -->
-        <test-method status="PASS" signature="Verify_Login_Functionality_With_4Digit()[pri:0, instance:testscript.SmokeTest@180d80f]" name="Verify_Login_Functionality_With_4Digit" duration-ms="14326" started-at="2015-07-28T13:17:41Z" description="Verify the login functionality with 4 digit pin(Bank Customer)" finished-at="2015-07-28T13:17:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Login_Functionality_With_4Digit -->
-        <test-method status="PASS" signature="Verify_Login_Functionality_With_6Digit()[pri:0, instance:testscript.SmokeTest@180d80f]" name="Verify_Login_Functionality_With_6Digit" duration-ms="13665" started-at="2015-07-28T13:17:55Z" description="Verify the login functionality with 6 digit pin(New customer)" finished-at="2015-07-28T13:18:09Z">
+        <test-method status="PASS" signature="Verify_Login_Functionality_With_6Digit()[pri:0, instance:testscript.SmokeTest@cbc42f]" name="Verify_Login_Functionality_With_6Digit" duration-ms="9080" started-at="2015-07-29T15:29:25Z" description="Verify the login functionality with 6 digit pin(New customer)" finished-at="2015-07-29T15:29:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Login_Functionality_With_6Digit -->
-        <test-method status="FAIL" signature="Verify_Wrong_Credentials()[pri:0, instance:testscript.SmokeTest@180d80f]" name="Verify_Wrong_Credentials" duration-ms="15792" started-at="2015-07-28T13:18:09Z" description="Verify Wrong Credentials" finished-at="2015-07-28T13:18:25Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Logga ut')])[2]"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: unknown
-Command duration or timeout: 3.26 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=a6a71f6c-8d4b-45f8-b717-b68d74a7ceaa, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: a6a71f6c-8d4b-45f8-b717-b68d74a7ceaa
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Logga ut')])[2]}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Logga ut')])[2]"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: unknown
-Command duration or timeout: 3.26 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webdriver.remote.sessionid=a6a71f6c-8d4b-45f8-b717-b68d74a7ceaa, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: a6a71f6c-8d4b-45f8-b717-b68d74a7ceaa
-*** Element info: {Using=xpath, value=(//a[contains(text(),'Logga ut')])[2]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at test.Core.Action.FindElement(Action.java:337)
-	at test.Core.Action.IsElementPresent(Action.java:150)
-	at test.Core.Action.verifyElementPresent(Action.java:127)
-	at pageObjects.LoginPage.Login(LoginPage.java:50)
-	at testscript.SmokeTest.Verify_Wrong_Credentials(SmokeTest.java:110)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:136)
-	... 34 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),'Logga ut')])[2]"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8', time: '2015-02-26 23:59:50'
-System info: host: 'SEZVM2330P', ip: '10.107.229.39', os.name: 'Windows Server 2008 R2', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/OFFNJA/AppData/Local/Temp/3/anonymous7321317653357682794webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/OFFNJA/AppData/Local/Temp/3/anonymous7321317653357682794webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Verify_Wrong_Credentials -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testscript.SmokeTest@180d80f]" name="afterTest" is-config="true" duration-ms="484" started-at="2015-07-28T13:18:25Z" finished-at="2015-07-28T13:18:25Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testscript.SmokeTest@cbc42f]" name="afterTest" is-config="true" duration-ms="1388" started-at="2015-07-29T15:29:35Z" finished-at="2015-07-29T15:29:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="AfterSuit()[pri:0, instance:testscript.SmokeTest@cbc42f]" name="AfterSuit" is-config="true" duration-ms="109" started-at="2015-07-29T15:29:36Z" finished-at="2015-07-29T15:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuit -->
       </class> <!-- testscript.SmokeTest -->
     </test> <!-- SmokeTest with firefox -->
   </suite> <!-- TestSuit -->

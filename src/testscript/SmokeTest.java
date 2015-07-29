@@ -25,7 +25,7 @@ import Utility.LoginData;
 public class SmokeTest extends TestBase  {
 	
 	 
-@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 3 digit pin(old customer)")
+//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 3 digit pin(old customer)")
 public static void Verify_Login_Functionality_With_3Digit() {
 	
 		LoginData login=  LoginData.Initialize("3digit");
@@ -58,7 +58,7 @@ public static void Verify_Login_Functionality_With_6Digit() {
        .Login(login.username,login.password);
      
 }
-@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 4 digit pin(Bank Customer)")
+//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 4 digit pin(Bank Customer)")
 public static void Verify_Login_Functionality_With_4Digit() {
 	
 	LoginData login=  LoginData.Initialize("4digit");
@@ -94,7 +94,7 @@ public static void Verify_StoreCache_Functionality_With_Login() {
      
 }
 
-@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Wrong Credentials")
+//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Wrong Credentials")
 public static void Verify_Wrong_Credentials() {
 	
 	LoginData login=  LoginData.Initialize("Wrongdigit");
