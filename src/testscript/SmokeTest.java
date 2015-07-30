@@ -42,7 +42,7 @@ public static void Verify_Login_Functionality_With_3Digit() {
 	      
 	
   }
-@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 6 digit pin(New customer)")
+//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 6 digit pin(New customer)")
 public static void Verify_Login_Functionality_With_6Digit() {
 	
 	LoginData login=  LoginData.Initialize("6digit");
@@ -113,7 +113,7 @@ public static void Verify_Wrong_Credentials() {
      
 }
  
-//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify StoreCache Functionality With Login")
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify StoreCache Functionality With Login")
 public static void Verify_Matkassen_Order_Flow() {
 	
 	LoginData login=  LoginData.Initialize("4digit");
@@ -137,7 +137,7 @@ public static void Verify_Matkassen_Order_Flow() {
        .SearchZipcode("11720");
      
 }
-@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify_Add_Item_To_Shopping_List")
+//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify_Add_Item_To_Shopping_List")
 public static void Verify_Add_Item_To_Shopping_List() {
 	
 	LoginData login=  LoginData.Initialize("4digit");

@@ -37,7 +37,7 @@ public class HandlaHomePage extends MasterPage {
 public HandlaHomePage NavigateToMatkassen() 
 {
 	//Action.waitt(Login_Link);
-	Action.Click(Master_Login_Link);
+	Action.Click(Matkassen_Link);
 	
 	return this;
 }

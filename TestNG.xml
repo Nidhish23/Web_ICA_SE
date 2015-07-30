@@ -2,10 +2,10 @@
 <suite name="TestSuit" thread-count="2">
 <listeners>
 		<listener class-name="test.Core.Log" />
+		
 	</listeners>
-
-<test name="SmokeTest with firefox">
-<parameter name="Browser" value="firefox"/> 
+<test name="SmokeTest with chrome">
+<parameter name="Browser" value="chrome"/> 
 	<classes>
 		<class name="testscript.SmokeTest"></class>
 	</classes>
