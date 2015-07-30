@@ -42,15 +42,22 @@ public class HomePage extends MasterPage {
 public HomePage NavigateToLoginpage() 
 {
 	//Action.waitt(Login_Link);
-	Action.Click(Login_Link);
+	Action.Click(Master_Login_Link);
 	
 	return this;
 }
 
 public HomePage NavigateToHandlaHomePage() 
 {
-	//Action.waitt(Login_Link);
-	Action.Click(Handla_Button);
+	if(Action.IsVisible(Master_Mobile_Mer_Button))
+	{
+	 Action.Click(Master_Mobile_Mer_Button);
+	 Action.Click(Master_Mobile_Handla_Button);
+	}
+	else
+	{
+	Action.Click(Master_Handla_Button);
+	}
 	
 	return this;
 }
@@ -63,10 +70,10 @@ public HomePage NavigateToHandlaHomePage()
 //</revision>
 public HomePage NavigateToMittICA()
 {
-	if(Action.IsVisible(Guest_Mitt_ICA_Link))
-		Action.Click(Guest_Mitt_ICA_Link);
+	if(Action.IsVisible(Master_Guest_Mitt_ICA_Link))
+		Action.Click(Master_Guest_Mitt_ICA_Link);
 		else
-			Action.Click(SignIN_Mitt_ICA_Link);
+			Action.Click(Master_SignIN_Mitt_ICA_Link);
 	return this;
 }
 

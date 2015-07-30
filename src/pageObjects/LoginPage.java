@@ -38,16 +38,16 @@ public class LoginPage extends MasterPage {
     	Action.Click(Keep_Me_Login_Chkbox);
     	Action.Click(Login_Button);
     	Action.driverwait(3);
-    	if(Action.IsVisible(Skip_3digit_Link))
+    	if(Action.IsVisible(Master_Skip_3digit_Link))
     	{
-    		Action.Click(Skip_3digit_Link);
+    		Action.Click(Master_Skip_3digit_Link);
     		
     	}
-    	else if(Action.IsVisible(Stang_Link))
+    	else if(Action.IsVisible(Master_Stang_Link))
     	{
-    		Action.Click(Stang_Link);
+    		Action.Click(Master_Stang_Link);
     	}
-    	Action.verifyElementPresent(Logout_Link);
+    	Action.verifyElementPresent(Master_Logout_Link);
 		Action.ActionLog("Actual Result : User Loggedin Successfully");
     	return this;
     }

@@ -37,7 +37,7 @@ public class HandlaHomePage extends MasterPage {
 public HandlaHomePage NavigateToMatkassen() 
 {
 	//Action.waitt(Login_Link);
-	Action.Click(Login_Link);
+	Action.Click(Master_Login_Link);
 	
 	return this;
 }
@@ -50,10 +50,10 @@ public HandlaHomePage NavigateToMatkassen()
 //</revision>
 public HandlaHomePage NavigateToMittICA()
 {
-	if(Action.IsVisible(Guest_Mitt_ICA_Link))
-	Action.Click(Guest_Mitt_ICA_Link);
+	if(Action.IsVisible(Master_Guest_Mitt_ICA_Link))
+	Action.Click(Master_Guest_Mitt_ICA_Link);
 	else
-		Action.Click(SignIN_Mitt_ICA_Link);
+		Action.Click(Master_SignIN_Mitt_ICA_Link);
 	return this;
 }
 

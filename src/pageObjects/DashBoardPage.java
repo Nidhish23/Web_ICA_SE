@@ -52,10 +52,10 @@ public class DashBoardPage extends MasterPage {
 //</revision>
 public DashBoardPage NavigateToMittICA()
 {
-	if(Action.IsVisible(Guest_Mitt_ICA_Link))
-	Action.Click(Guest_Mitt_ICA_Link);
+	if(Action.IsVisible(Master_Guest_Mitt_ICA_Link))
+	Action.Click(Master_Guest_Mitt_ICA_Link);
 	else
-		Action.Click(SignIN_Mitt_ICA_Link);
+		Action.Click(Master_SignIN_Mitt_ICA_Link);
 	return this;
 }
 
