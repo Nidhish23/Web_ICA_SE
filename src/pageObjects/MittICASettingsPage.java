@@ -36,6 +36,7 @@ public class MittICASettingsPage extends MasterPage {
 	    Action.ActionLog("Actual Result :New Card Request button is present");
 	    return this;
 	    }
+	  
 	    public MittICASettingsPage VerifyICACardCustomer()
 	    {
 	    Action.ActionLog("Expected Result:New Card Request button should not be there");

@@ -166,6 +166,89 @@ public static void Verify_Add_Item_To_Shopping_List() {
      
 }
 
+//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Old base customer type")
+public static void Verify_old_base_customer() {
+          LoginData login=  LoginData.Initialize("Oldbase");
+          Begin begin =new Begin();
+
+          begin
+          .GoToHomePage()
+  .atHomePage()
+  .GotoHomePage()
+  .NavigateToLoginpage()
+  .GetLoginPage()
+  .atLoginPage()
+  .Login(login.username,login.password)
+  .GetHomePage()
+  .atHomePage()
+  .NavigateToDashboardPage()
+  .GetDashBoardPage()
+   .atDashBoardPage()
+  .VerifyDashboardBaseCustomer();
+}
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify ICA Bank customer type")
+public static void Verify_Settings_Account_Management_For_ICA_Bank_Customer() {
+          LoginData login=  LoginData.Initialize("4digit");
+          Begin begin =new Begin();
+
+          begin
+          .GoToHomePage()
+  .atHomePage()
+  .GotoHomePage()
+  .NavigateToLoginpage()
+  .GetLoginPage()
+  .atLoginPage()
+  .Login(login.username,login.password)
+  .GetHomePage()
+  .atHomePage()
+  .NavigateToMittICASettingsPage()
+  .GetMittICASettingsPage()
+  .atMittICASettingsPage()
+  .VerifyICABankCustomer();
+}
+//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify ICA Card customer type")
+public static void Verify_Settings_Account_Managment_For_ICA_Card_Customer() {
+          LoginData login=  LoginData.Initialize("Login6digit");
+          Begin begin =new Begin();
+
+          begin
+          .GoToHomePage()
+.atHomePage()
+.GotoHomePage()
+.NavigateToLoginpage()
+.GetLoginPage()
+.atLoginPage()
+.Login(login.username,login.password)
+.GetHomePage()
+.atHomePage()
+.NavigateToMittICASettingsPage()
+.GetMittICASettingsPage()
+.atMittICASettingsPage()
+.VerifyICACardCustomer();
+}
+//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Student customer type")
+public static void Verify_Settings_ICA_Student_Customer() {
+          LoginData login=  LoginData.Initialize("ICAStudent");
+          Begin begin =new Begin();
+
+          begin
+          .GoToHomePage()
+.atHomePage()
+.GotoHomePage()
+.NavigateToLoginpage()
+.GetLoginPage()
+.atLoginPage()
+.Login(login.username,login.password)
+.GetHomePage()
+.atHomePage()
+.NavigateToMittICASettingsPage()
+.GetMittICASettingsPage()
+.atMittICASettingsPage()
+.VerifySCustomer();
+}
+
+
+
   }
 
 

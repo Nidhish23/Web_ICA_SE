@@ -62,7 +62,7 @@ public MatkassenPage SearchZipcode(String zipcode)
 	Action.enterTextWithClear(Matkassen_Mobile_Textbox, "111111111");
 	Action.Click(Matkassen_Next_Button);
 	Action.WaitForPageLoad();
-	Action.Click(Matkassen_TermsCondition_Chkbox);
+	Action.SelectRadio(Matkassen_TermsCondition_Chkbox);
 	Action.Click(Matkassen_Next_Button);
 	return this;
 }

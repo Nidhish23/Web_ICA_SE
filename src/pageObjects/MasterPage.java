@@ -68,7 +68,9 @@ Configuration configuration = new Configuration();
 	public static  LocatorObject Master_Stang_Link = new LocatorObject("Stäng","Master> stang",LocatorObject.LINKTEXT);       
 	public static  LocatorObject Master_Skip_3digit_Link = new LocatorObject("Jag vill välja lösenord senare","Master> Jag vill välja lösenord senare",LocatorObject.LINKTEXT);
 	public static  LocatorObject Master_SignIN_Mitt_ICA_Link = new LocatorObject("//nav[@id='globalnav']/section/ul/li/a","Master> Click on Mitt ICA  after Sign IN ",LocatorObject.XPATH);
-	
+	public static  LocatorObject Master_DashboardSummary_Link = new LocatorObject("span.user-name","Dashboard> Click Nameof The User In Dashboard",LocatorObject.CSS);
+	public static  LocatorObject Master_DashboardSettings_Link = new LocatorObject("Inställningar","Dashboard> Settings",LocatorObject.LINKTEXT);
+
 	//Phone and Ipad
 	public static  LocatorObject Master_Mobile_Recipe_Button = new LocatorObject("(//a[contains(text(),'Recept')])[3]","Mobile >Home page> Recept",LocatorObject.XPATH);
 	public static  LocatorObject Master_Mobile_Halsa_Button = new LocatorObject("(//a[contains(text(),'Hälsa')])[2]","Mobile >Home Page> Halsa",LocatorObject.XPATH);

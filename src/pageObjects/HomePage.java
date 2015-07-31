@@ -94,4 +94,18 @@ public HomePage VerifyStoreCache()
 	Action.ActionLog("Store Cache functionality verified successfully");
 return this;
 }
+
+public HomePage NavigateToDashboardPage()
+{
+            NavigateToMittICA();
+            Action.Click(Master_DashboardSummary_Link);
+            return this;
+}
+public HomePage NavigateToMittICASettingsPage()
+{
+            NavigateToMittICA();
+            Action.Click(Master_DashboardSummary_Link);
+            Action.Click(Master_DashboardSettings_Link);
+            return this;
+}
 }

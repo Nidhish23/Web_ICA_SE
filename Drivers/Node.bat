@@ -1,1 +1,1 @@
-java -jar selenium-server-standalone-2.45.0.jar -role node  -hub http://localhost:2323/grid/register -Dwebdriver.chrome.driver=./chromedriver.exe -port 2145
+java -jar selenium-server-standalone-2.45.0.jar -role node  -hub http://localhost:2323/grid/register -Dwebdriver.chrome.driver=./chromedriver.exe -Dwebdriver.ie.driver=./IEDriverServer.exe -port 2145
