@@ -44,4 +44,11 @@ public class PageObjects {
  return new MittICASettingsPage(this);
 		
 	}
+	
+	public RecipePage GetRecipePage()
+	{
+ return new RecipePage(this);
+		
+	}
+	
 }

@@ -134,7 +134,11 @@ public static void Verify_Matkassen_Order_Flow() {
        .NavigateToMatkassen()
        .GetMatkassenPage()
        .atMatkassenPage()
-       .SearchZipcode("11720");
+       .SearchZipcode("11720")
+       .SelectDefaultStore()
+       .SelectDefaultBag()
+       .FillInformation()
+       .PayWithPayex();
      
 }
 //@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify_Add_Item_To_Shopping_List")
@@ -166,7 +170,7 @@ public static void Verify_Add_Item_To_Shopping_List() {
      
 }
 
-//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Old base customer type")
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Old base customer type", enabled = true)
 public static void Verify_old_base_customer() {
           LoginData login=  LoginData.Initialize("Oldbase");
           Begin begin =new Begin();
@@ -183,12 +187,71 @@ public static void Verify_old_base_customer() {
   .atHomePage()
   .NavigateToDashboardPage()
   .GetDashBoardPage()
-   .atDashBoardPage()
+  .atDashBoardPage()
   .VerifyDashboardBaseCustomer();
 }
+
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Recipe Search for guest user", enabled = true)
+public static void Verify_Recipe_Search_Guest() {
+
+          Begin begin =new Begin();
+
+          begin
+.GoToHomePage()
+.atHomePage()
+.GotoHomePage()
+.NavigateToRecipePage()
+.GetRecipePage()
+.atRecipePage()
+.RecipeSarch("Kyckling")
+.VerifySearch("Kyckling");
+}
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Recipe Search for logged in user")
+public static void Verify_Recipe_Search_Loggedin() {
+          
+          LoginData login=  LoginData.Initialize("6digit");
+          Begin begin =new Begin();
+
+          begin
+   .GoToHomePage()
+   .atHomePage()
+   .GotoHomePage()
+   .NavigateToLoginpage()
+   .GetLoginPage()
+   .atLoginPage()
+   .Login(login.username,login.password)
+   .GetHomePage()
+   .atHomePage()
+   .NavigateToRecipePage()
+   .GetRecipePage()
+   .atRecipePage()
+   .RecipeSarch("Fisk")
+   .VerifySearch("Fisk");
+}
+
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Student customer type")
+public static void Verify_ICA_Student_Customer() {
+          LoginData login=  LoginData.Initialize("ICAStudent");
+          Begin begin =new Begin();
+
+          begin
+          .GoToHomePage()
+.atHomePage()
+.GotoHomePage()
+.NavigateToLoginpage()
+.GetLoginPage()
+.atLoginPage()
+.Login(login.username,login.password)
+.GetHomePage()
+.atHomePage()
+.NavigateToMittICASettingsPage()
+.GetMittICASettingsPage()
+.atMittICASettingsPage()
+.VerifyStudentCustomer();
+}
 @Test (groups={"ICA.SE-Smoke Test"}, description = "Verify ICA Bank customer type")
-public static void Verify_Settings_Account_Management_For_ICA_Bank_Customer() {
-          LoginData login=  LoginData.Initialize("4digit");
+public static void Verify_ICA_Bank_Customer() {
+          LoginData login=  LoginData.Initialize("6digit");
           Begin begin =new Begin();
 
           begin
@@ -206,9 +269,9 @@ public static void Verify_Settings_Account_Management_For_ICA_Bank_Customer() {
   .atMittICASettingsPage()
   .VerifyICABankCustomer();
 }
-//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify ICA Card customer type")
-public static void Verify_Settings_Account_Managment_For_ICA_Card_Customer() {
-          LoginData login=  LoginData.Initialize("Login6digit");
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify ICA Card customer type")
+public static void Verify_ICA_Card_Customer() {
+          LoginData login=  LoginData.Initialize("4digit");
           Begin begin =new Begin();
 
           begin
@@ -226,26 +289,9 @@ public static void Verify_Settings_Account_Managment_For_ICA_Card_Customer() {
 .atMittICASettingsPage()
 .VerifyICACardCustomer();
 }
-//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Student customer type")
-public static void Verify_Settings_ICA_Student_Customer() {
-          LoginData login=  LoginData.Initialize("ICAStudent");
-          Begin begin =new Begin();
 
-          begin
-          .GoToHomePage()
-.atHomePage()
-.GotoHomePage()
-.NavigateToLoginpage()
-.GetLoginPage()
-.atLoginPage()
-.Login(login.username,login.password)
-.GetHomePage()
-.atHomePage()
-.NavigateToMittICASettingsPage()
-.GetMittICASettingsPage()
-.atMittICASettingsPage()
-.VerifySCustomer();
-}
+
+
 
 
 

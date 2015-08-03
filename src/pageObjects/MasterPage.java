@@ -52,6 +52,12 @@ Configuration configuration = new Configuration();
 		
 	}
 	
+	public  RecipePage GetRecipePage()
+	{
+       return repository.GetRecipePage();
+		
+	}
+	
 	//Master Page Locator Object inherited by all the child pages 
 	public static  LocatorObject Master_Logout_Link = new LocatorObject("(//a[contains(text(),'Logga ut')])[2]","Home page> Click Logout",LocatorObject.XPATH);
 	public static  LocatorObject Master_Home_Button = new LocatorObject("span.logo-image.sprite2","Home> ICA Home Button",LocatorObject.CSS);
@@ -71,6 +77,7 @@ Configuration configuration = new Configuration();
 	public static  LocatorObject Master_DashboardSummary_Link = new LocatorObject("span.user-name","Dashboard> Click Nameof The User In Dashboard",LocatorObject.CSS);
 	public static  LocatorObject Master_DashboardSettings_Link = new LocatorObject("Inställningar","Dashboard> Settings",LocatorObject.LINKTEXT);
 
+	
 	//Phone and Ipad
 	public static  LocatorObject Master_Mobile_Recipe_Button = new LocatorObject("(//a[contains(text(),'Recept')])[3]","Mobile >Home page> Recept",LocatorObject.XPATH);
 	public static  LocatorObject Master_Mobile_Halsa_Button = new LocatorObject("(//a[contains(text(),'Hälsa')])[2]","Mobile >Home Page> Halsa",LocatorObject.XPATH);

@@ -108,4 +108,10 @@ public HomePage NavigateToMittICASettingsPage()
             Action.Click(Master_DashboardSettings_Link);
             return this;
 }
+public HomePage NavigateToRecipePage()
+{
+            Action.Click(Master_Recipe_Button);
+            return this;
+}
+
 }
