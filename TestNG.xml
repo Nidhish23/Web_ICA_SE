@@ -4,8 +4,8 @@
 		<listener class-name="test.Core.Log" />
 		
 	</listeners>
-<test name="SmokeTest with iExplorer">
-<parameter name="Browser" value="iExplorer"/> 
+<test name="SmokeTest with chrome">
+<parameter name="Browser" value="chrome"/> 
 	<classes>
 		<class name="testscript.SmokeTest"></class>
 	</classes>
