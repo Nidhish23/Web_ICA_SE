@@ -19,16 +19,16 @@ import org.testng.annotations.AfterClass;
 import Utility.StoreData;
 
 import Utility.Begin;
-import Utility.LoginData;
+import Utility.User;
 
 
 public class SmokeTest extends TestBase  {
 	
 	 
-//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 3 digit pin(old customer)")
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 3 digit pin(old customer)")
 public static void Verify_Login_Functionality_With_3Digit() {
 	
-		LoginData login=  LoginData.Initialize("3digit");
+		User user=  User.Initialize("3digit");
 		Begin begin =new Begin();
         
 		begin
@@ -38,14 +38,14 @@ public static void Verify_Login_Functionality_With_3Digit() {
 	       .NavigateToLoginpage()
 	       .GetLoginPage()
 	       .atLoginPage()
-	       .Login(login.username,login.password);
+	       .Login(user.strUsername,user.strPassword);
 	      
 	
   }
-//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 6 digit pin(New customer)")
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 6 digit pin(New customer)")
 public static void Verify_Login_Functionality_With_6Digit() {
 	
-	LoginData login=  LoginData.Initialize("6digit");
+	User user=  User.Initialize("6digit");
 	Begin begin =new Begin();
     
 	begin
@@ -55,13 +55,13 @@ public static void Verify_Login_Functionality_With_6Digit() {
        .NavigateToLoginpage()
        .GetLoginPage()
        .atLoginPage()
-       .Login(login.username,login.password);
+       .Login(user.strUsername,user.strPassword);
      
 }
-//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 4 digit pin(Bank Customer)")
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify the login functionality with 4 digit pin(Bank Customer)")
 public static void Verify_Login_Functionality_With_4Digit() {
 	
-	LoginData login=  LoginData.Initialize("4digit");
+	User user=  User.Initialize("4digit");
 	Begin begin =new Begin();
     
 	begin
@@ -71,13 +71,13 @@ public static void Verify_Login_Functionality_With_4Digit() {
        .NavigateToLoginpage()
        .GetLoginPage()
        .atLoginPage()
-       .Login(login.username,login.password);
+       .Login(user.strUsername,user.strPassword);
      
 }
-//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify StoreCache Functionality With Login")
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify StoreCache Functionality With Login")
 public static void Verify_StoreCache_Functionality_With_Login() {
 	
-	LoginData login=  LoginData.Initialize("6digit");
+	User user=  User.Initialize("6digit");
 	Begin begin =new Begin();
     
 	begin
@@ -87,7 +87,7 @@ public static void Verify_StoreCache_Functionality_With_Login() {
        .NavigateToLoginpage()
        .GetLoginPage()
        .atLoginPage()
-       .Login(login.username,login.password)
+       .Login(user.strUsername,user.strPassword)
        .GetHomePage()
        .atHomePage()
        .VerifyStoreCache();
@@ -97,7 +97,7 @@ public static void Verify_StoreCache_Functionality_With_Login() {
 //@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Wrong Credentials")
 public static void Verify_Wrong_Credentials() {
 	
-	LoginData login=  LoginData.Initialize("Wrongdigit");
+	User user=  User.Initialize("Wrongdigit");
 	Begin begin =new Begin();
     
 	begin
@@ -107,16 +107,16 @@ public static void Verify_Wrong_Credentials() {
        .NavigateToLoginpage()
        .GetLoginPage()
        .atLoginPage()
-       .Login(login.username,login.password);
+       .Login(user.strUsername,user.strPassword);
        
        
      
 }
  
-@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify StoreCache Functionality With Login")
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Matkassen Order with Default bank with Payex payment Type")
 public static void Verify_Matkassen_Order_Flow() {
 	
-	LoginData login=  LoginData.Initialize("4digit");
+	User user=  User.Initialize("4digit");
 	Begin begin =new Begin();
     
 	begin
@@ -126,7 +126,7 @@ public static void Verify_Matkassen_Order_Flow() {
        .NavigateToLoginpage()
        .GetLoginPage()
        .atLoginPage()
-       .Login(login.username,login.password)
+       .Login(user.strUsername,user.strPassword)
        .GetHomePage()
        .atHomePage()
        .NavigateToHandlaHomePage()
@@ -137,14 +137,14 @@ public static void Verify_Matkassen_Order_Flow() {
        .SearchZipcode("11720")
        .SelectDefaultStore()
        .SelectDefaultBag()
-       .FillInformation()
+       .FillInformation(user.strEmail,user.strPhoneNumber)
        .PayWithPayex();
      
 }
-//@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify_Add_Item_To_Shopping_List")
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify_Add_Item_To_Shopping_List")
 public static void Verify_Add_Item_To_Shopping_List() {
 	
-	LoginData login=  LoginData.Initialize("4digit");
+	User user=  User.Initialize("4digit");
 	Begin begin =new Begin();
     
 	begin
@@ -154,7 +154,7 @@ public static void Verify_Add_Item_To_Shopping_List() {
     .NavigateToLoginpage()
     .GetLoginPage()
     .atLoginPage()
-    .Login(login.username,login.password)
+    .Login(user.strUsername,user.strPassword)
     .GetHomePage()
     .atHomePage()
     .NavigateToMittICA()
@@ -171,29 +171,28 @@ public static void Verify_Add_Item_To_Shopping_List() {
 }
 
 @Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Old base customer type", enabled = true)
-public static void Verify_old_base_customer() {
-          LoginData login=  LoginData.Initialize("Oldbase");
+public static void Verify_AccountAndBalance_With_Old_Base_Customer() {
+          User user=  User.Initialize("Oldbase");
           Begin begin =new Begin();
 
           begin
-          .GoToHomePage()
+         .GoToHomePage()
   .atHomePage()
   .GotoHomePage()
   .NavigateToLoginpage()
   .GetLoginPage()
   .atLoginPage()
-  .Login(login.username,login.password)
+  .Login(user.strUsername,user.strPassword)
   .GetHomePage()
   .atHomePage()
   .NavigateToDashboardPage()
   .GetDashBoardPage()
   .atDashBoardPage()
-  .VerifyDashboardBaseCustomer();
+  .VerifyAccountAndBalanceForBaseCustomer();
 }
 
 @Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Recipe Search for guest user", enabled = true)
-public static void Verify_Recipe_Search_Guest() {
-
+public static void Verify_Guest_Recipe_Search() {
           Begin begin =new Begin();
 
           begin
@@ -207,9 +206,9 @@ public static void Verify_Recipe_Search_Guest() {
 .VerifySearch("Kyckling");
 }
 @Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Recipe Search for logged in user")
-public static void Verify_Recipe_Search_Loggedin() {
+public static void Verify_LoggedIN_Recipe_Search() {
           
-          LoginData login=  LoginData.Initialize("6digit");
+          User user=  User.Initialize("6digit");
           Begin begin =new Begin();
 
           begin
@@ -219,7 +218,7 @@ public static void Verify_Recipe_Search_Loggedin() {
    .NavigateToLoginpage()
    .GetLoginPage()
    .atLoginPage()
-   .Login(login.username,login.password)
+   .Login(user.strUsername,user.strPassword)
    .GetHomePage()
    .atHomePage()
    .NavigateToRecipePage()
@@ -229,9 +228,9 @@ public static void Verify_Recipe_Search_Loggedin() {
    .VerifySearch("Fisk");
 }
 
-@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Student customer type")
-public static void Verify_ICA_Student_Customer() {
-          LoginData login=  LoginData.Initialize("ICAStudent");
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Student Tab under settings with Student Credentials")
+public static void Verify_Settings_ICA_Student_Customer() {
+          User user=  User.Initialize("ICAStudent");
           Begin begin =new Begin();
 
           begin
@@ -241,7 +240,7 @@ public static void Verify_ICA_Student_Customer() {
 .NavigateToLoginpage()
 .GetLoginPage()
 .atLoginPage()
-.Login(login.username,login.password)
+.Login(user.strUsername,user.strPassword)
 .GetHomePage()
 .atHomePage()
 .NavigateToMittICASettingsPage()
@@ -249,9 +248,9 @@ public static void Verify_ICA_Student_Customer() {
 .atMittICASettingsPage()
 .VerifyStudentCustomer();
 }
-@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify ICA Bank customer type")
-public static void Verify_ICA_Bank_Customer() {
-          LoginData login=  LoginData.Initialize("6digit");
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Account Managment under Settings with ICA Bank Customers")
+public static void Verify_Settings_Account_Managment_With_ICA_Bank_Customer() {
+          User user=  User.Initialize("6digit");
           Begin begin =new Begin();
 
           begin
@@ -261,7 +260,7 @@ public static void Verify_ICA_Bank_Customer() {
   .NavigateToLoginpage()
   .GetLoginPage()
   .atLoginPage()
-  .Login(login.username,login.password)
+  .Login(user.strUsername,user.strPassword)
   .GetHomePage()
   .atHomePage()
   .NavigateToMittICASettingsPage()
@@ -269,9 +268,9 @@ public static void Verify_ICA_Bank_Customer() {
   .atMittICASettingsPage()
   .VerifyICABankCustomer();
 }
-@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify ICA Card customer type")
-public static void Verify_ICA_Card_Customer() {
-          LoginData login=  LoginData.Initialize("4digit");
+@Test (groups={"ICA.SE-Smoke Test"}, description = "Verify Account Managment under Settings with ICA Card customer ")
+public static void Verify_Settings_Account_Managment_With_ICA_Card_Customer() {
+          User user=  User.Initialize("4digit");
           Begin begin =new Begin();
 
           begin
@@ -281,7 +280,7 @@ public static void Verify_ICA_Card_Customer() {
 .NavigateToLoginpage()
 .GetLoginPage()
 .atLoginPage()
-.Login(login.username,login.password)
+.Login(user.strUsername,user.strPassword)
 .GetHomePage()
 .atHomePage()
 .NavigateToMittICASettingsPage()

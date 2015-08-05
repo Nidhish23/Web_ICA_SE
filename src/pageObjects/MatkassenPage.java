@@ -64,42 +64,61 @@ public MatkassenPage SearchZipcode(String zipcode)
 	Action.enterText(Matkassen_ZipcodeSearch_Textbox, zipcode);
 	Action.ActionLog("Click on search button");
 	Action.Click(Matkassen_ZipcodeSeach_Button);
-	
-	
-	//Action.enterTextWithClear(Matkassen_EmailID_Textbox, "nids@gmail.com");
-	//Action.enterTextWithClear(Matkassen_Email_Confirmation_Textbox, "nids@gmail.com");
-	//.enterTextWithClear(Matkassen_Mobile_Textbox, "111111111");
-	//Action.Click(Matkassen_Next_Button);
-	//Action.WaitForPageLoad();
-//	Action.SelectRadio(Matkassen_TermsCondition_Chkbox);
-//	Action.Click(Matkassen_Next_Button);
 	return this;
 }
-
+// <summary>
+//Navigate to login page
+//</summary>
+//<revision>
+//Author:	Nidhish Jain
+//Date:	07/28/2015		Action: Created
+//</revision>
 public MatkassenPage SelectDefaultStore()
 {
 	Action.ActionLog("Select the store");
 	Action.Click(Matkassen_Search_Store_Name_Link.Replace("1"));
 	return this;
 }
-
+// <summary>
+//Navigate to login page
+//</summary>
+//<revision>
+//Author:	Nidhish Jain
+//Date:	07/28/2015		Action: Created
+//</revision>
 public MatkassenPage SelectDefaultBag()
 {	Action.ActionLog("Select the Bag");
 	Action.Click(Matkassen_Bestall_Button);
 	return this;
 }
+// <summary>
+//Navigate to login page
+//</summary>
+//<revision>
+//Author:	Nidhish Jain
+//Date:	07/28/2015		Action: Created
+//</revision>
 
-public MatkassenPage FillInformation()
+public MatkassenPage FillInformation(String strEmail,String strMobile)
 {
-	Action.enterTextWithClear(Matkassen_EmailID_Textbox, "nids@gmail.com");
-	Action.enterTextWithClear(Matkassen_Email_Confirmation_Textbox, "nids@gmail.com");
-	Action.enterTextWithClear(Matkassen_Mobile_Textbox, "111111111");
+	Action.ActionLog("Fill personal information");
+	Action.enterTextWithClear(Matkassen_EmailID_Textbox, strEmail);
+	Action.enterTextWithClear(Matkassen_Email_Confirmation_Textbox, strEmail);
+	Action.enterTextWithClear(Matkassen_Mobile_Textbox, strMobile);
 	Action.Click(Matkassen_Next_Button);
 	Action.WaitForPageLoad();
 	Action.SelectRadio(Matkassen_TermsCondition_Chkbox);
 	Action.Click(Matkassen_Next_Button);
 	return this;
 }
+
+// <summary>
+//Navigate to login page
+//</summary>
+//<revision>
+//Author:	Nidhish Jain
+//Date:	07/28/2015		Action: Created
+//</revision>
 public MatkassenPage PayWithPayex()
 {
 	Action.ActionLog("Complete the Order with Payex Payment");
@@ -115,8 +134,7 @@ public MatkassenPage PayWithPayex()
 	Action.SelectdropdrownValueByVisibleText(Matkassen_Payex_ExpireMonth_DropDown, "11");
 	Action.SelectdropdrownValueByVisibleText(Matkassen_Payex_ExpireYear_DropDown, "21");
 	Action.Click(Matkassen_Payex_Pay_Button);
-	
-	
+		
 	return this;
 }
 }

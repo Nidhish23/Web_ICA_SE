@@ -32,11 +32,11 @@ public class DashBoardPage extends MasterPage {
 	  
 	  
 	  
-	  public DashBoardPage VerifyDashboardBaseCustomer()
+	  public DashBoardPage VerifyAccountAndBalanceForBaseCustomer()
 	    {
 	    Action.ActionLog("Expected Result:The customer is an old base customer");
-	    Action.Click(Dashboard_Summary_Link);
-	    Action.driverwait(5);
+	   // Action.Click(Dashboard_Summary_Link);
+	   // Action.driverwait(5);
 	    Action.Click(Dashboard_Account_Link);
 	    Action.verifyElementPresent(Dashboard_OldBase_Link);
 	    Action.ActionLog("Actual Result :The customer is an old base customer");

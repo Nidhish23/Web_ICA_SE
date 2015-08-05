@@ -62,7 +62,7 @@ public class MittICASettingsPage extends MasterPage {
 	    }
 	    else
 	    { 
-	    Action.ActionLog("Actual Result :ICA Student tab is not present");
+	    Action.AssertFail(ICAStudent_Link.objectDescription+"Element not present on the page");
 	    }
 	    return this;
 	    }
